@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.app-bar {
+    width: 100%;
+    background-color: #f4e04d;
+}
+
+
+button {
+    margin: 1em;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+    padding: 1em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#btn-notify {
+    background-color: #844685;
+    color: #ffffff;
+    padding: 1em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+    /* Hide by Default. Only enabled if ServiceWorker is available */
+    display: none;
+}
+#btn-push{
+    background-color: #efb1ff;
+}
+
+#push-notification {
+    margin-top: 2em;
+    padding: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    /*Hide by default. only enables when service worker pushes messages */
+    display: none;
+
+}
